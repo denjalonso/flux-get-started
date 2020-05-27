@@ -45,6 +45,7 @@ spec:
         - --level=info
         - --random-delay=false
         - --random-error=false
+        - --ui-message='Welcome to Flux'
         env:
         - name: PODINFO_UI_MESSAGE
           value: "Welcome to Flux!!!!!!!!"

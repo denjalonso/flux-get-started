@@ -41,7 +41,7 @@ spec:
   # define the canary analysis timing and KPIs
   analysis:
     # schedule interval (default 60s)
-    interval: 1m
+    interval: 30s
     # max number of failed metric checks before rollback
     threshold: 5
     # max traffic percentage routed to canary

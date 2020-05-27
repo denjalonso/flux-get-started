@@ -1,0 +1,1 @@
+{"jobID":"6159e991-d590-61b6-72b3-9a8d7fb055fa","spec":{"type":"policy","cause":{"Message":"","User":"denjalonso \u003cdenjalonso@gmail.com\u003e"},"spec":{"demo:deployment/podinfo":{"add":{"tag_all":"glob:3.1.*"},"remove":{}}}},"result":null}

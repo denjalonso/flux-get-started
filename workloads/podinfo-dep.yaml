@@ -8,8 +8,8 @@ metadata:
     app: podinfo
   annotations:
     flux.weave.works/automated: "true"
-    fluxcd.io/tag.podinfod: glob:3.*
-    fluxcd.io/tag.init: glob:3.*
+    fluxcd.io/tag.podinfod: glob:3.1.*
+    fluxcd.io/tag.init: glob:3.1.*
 spec:
   strategy:
     rollingUpdate:

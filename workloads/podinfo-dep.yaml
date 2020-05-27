@@ -8,8 +8,6 @@ metadata:
     app: podinfo
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.init: regex:^3.10.*
-    flux.weave.works/tag.podinfod: semver:~2.1
 spec:
   strategy:
     rollingUpdate:

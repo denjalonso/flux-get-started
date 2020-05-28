@@ -9,6 +9,7 @@ metadata:
   annotations:
     fluxcd.io/tag.podinfod: glob:3.*
     fluxcd.io/tag.init: glob:3.*
+    fluxcd.io/automated: 'true'
 spec:
   strategy:
     rollingUpdate:

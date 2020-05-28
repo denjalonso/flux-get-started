@@ -43,7 +43,7 @@ spec:
         - --level=info
         - --random-delay=false
         - --random-error=false
-        - --ui-message='Welcome rollback'
+        - --ui-message='Welcome'
         env:
         - name: PODINFO_UI_MESSAGE
           value: "Welcome to Flux!!!!!!!!"

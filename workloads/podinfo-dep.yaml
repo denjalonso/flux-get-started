@@ -45,7 +45,7 @@ spec:
         - --level=info
         - --random-delay=false
         - --random-error=false
-        - --ui-message='Welcome'
+        - --ui-message='Welcome CI CD Canary Islands'
         env:
         - name: PODINFO_UI_MESSAGE
           value: "Welcome to Flux!!!!!!!!"

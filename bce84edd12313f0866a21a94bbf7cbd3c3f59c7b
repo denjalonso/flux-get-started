@@ -1,0 +1,1 @@
+{"jobID":"dc3ccec1-c565-80e9-2622-350cc13877a9","spec":{"type":"policy","cause":{"Message":"","User":"denjalonso \u003cdenjalonso@gmail.com\u003e"},"spec":{"demo:deployment/podinfo":{"add":{},"remove":{"automated":"true"}}}},"result":null}

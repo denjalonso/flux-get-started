@@ -9,7 +9,7 @@ metadata:
   annotations:
     flux.weave.works/automated: "true"
     fluxcd.io/tag.podinfod: glob:3.1.*
-    fluxcd.io/tag.init: glob:3.1.*
+    fluxcd.io/tag.init: 3.1.0
 spec:
   strategy:
     rollingUpdate:

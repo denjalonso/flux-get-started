@@ -7,8 +7,8 @@ metadata:
   labels:
     app: podinfo
   annotations:
-    fluxcd.io/tag.podinfod: glob:3.1.*
-    fluxcd.io/tag.init: glob:3.1.*
+    fluxcd.io/tag.podinfod: glob:3.*
+    fluxcd.io/tag.init: glob:3.*
 spec:
   strategy:
     rollingUpdate:
@@ -32,7 +32,7 @@ spec:
         - "1"
       containers:
       - name: podinfod
-        image: stefanprodan/podinfo:3.1.5
+        image: stefanprodan/podinfo:3.2.5
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9898
